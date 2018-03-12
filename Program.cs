@@ -7,7 +7,7 @@ namespace dotnet_pokus
     {
         public static void Main(string[] args)
         {
-            String url = (args.Length > 0) ? args[0] : "amqps://<messaging-route-hostname>:443";
+            String url = (args.Length > 0) ? args[0] : "amqps://127.0.0.1:443";
             String address = (args.Length > 1) ? args[1] : "myqueue";
 
             
